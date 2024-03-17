@@ -1,3 +1,5 @@
 node_modules
-public/font
-
+# public/font
+# public/images
+# public/ressources
+public/css

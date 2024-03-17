@@ -1,4 +1,3 @@
-console.log("bite veille");
 document.addEventListener("DOMContentLoaded", function () {
   var veilleTopics = document.querySelectorAll(".veille-topic");
 
