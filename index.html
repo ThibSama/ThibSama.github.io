@@ -13,15 +13,15 @@
     <link rel="stylesheet" href="/public/css/output.css" type="text/css" />
     <link
       rel="stylesheet"
-      href="/node_modules/@fortawesome/fontawesome-free/css/all.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     />
-    <link rel="stylesheet" href="/node_modules/swiper/swiper-bundle.css" />
 
-    <script defer src="/node_modules/swiper/swiper-bundle.js"></script>
-    <script defer type="module" src="/public/js/caroussel.js"></script>
-    <script defer src="/public/js/etudes.js"></script>
-    <script defer src="/public/js/veille.js"></script>
-    <script defer src="/public/js/date.js"></script>
+    <!-- <link rel="stylesheet" href="/public/css/font.css" type="css" />-->
+
+    <script defer src="/dist/carrousel.bundle.js"></script>
+    <script defer src="/dist/date.bundle.js"></script>
+    <script defer src="/dist/etudes.bundle.js"></script>
+    <script defer src="/dist/veille.bundle.js"></script>
   </head>
 
   <header class="flex text-customFont1 justify-between items-center p-4">
@@ -398,6 +398,18 @@
                     />
                   </a>
                 </div>
+                <div class="swiper-slide">
+                  <a
+                    href="/public/ressources/Certificat_RGPD_CNIL.pdf"
+                    target="_blank"
+                  >
+                    <img
+                      src="/public/images/competences/certifs/atelier_rgpd.webp"
+                      alt="Image 1"
+                      class="w-auto h-16 mx-auto mt-2"
+                    />
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -655,12 +667,26 @@
 
         <div class="ml-4 border-l-2 border-customFont1"></div>
         <div class="pl-8 w-1/3">
-          <h3 class="font-semibold mb-2">Les outils :</h3>
+          <h3 class="font-semibold mb-6">Les outils :</h3>
           <ul
-            class="list-none bg-zinc-100 rounded-lg w-fit text-black text-center p-4"
+            class="list-none bg-zinc-100 rounded-lg w-fit text-black text-center ml-6 p-4"
           >
-            <li>Feedly</li>
-            <li>Podcast</li>
+            <li class="flex justify-center items-center">
+              <img
+                src="/public/images/veille/feedly.webp"
+                alt=""
+                class="rounded-lg w-16 h-auto hover:scale-110 transiton ease-in-out duration-300"
+              />
+              <p class="font-semibold ml-4">Feedly</p>
+            </li>
+            <li class="flex justify-center items-center">
+              <img
+                src="/public/images/veille/apple-podcast.webp"
+                alt=""
+                class="rounded-lg w-16 h-auto hover:scale-110 transiton ease-in-out duration-300 ml-2 mt-2"
+              />
+              <p class="font-semibold ml-4 w-auto">Podcast</p>
+            </li>
           </ul>
         </div>
       </div>

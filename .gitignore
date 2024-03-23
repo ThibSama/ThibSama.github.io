@@ -1,6 +1,4 @@
 node_modules
 .vscode
 public/font
-public/images
-public/ressources
-public/css
+public/css/output.css
